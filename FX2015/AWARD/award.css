@@ -1,0 +1,94 @@
+﻿body
+{
+   background:#e2e2e2;
+    }
+.tabClass
+{
+    background:#f0f0f0;
+    width:650px;
+    
+    
+    }
+.headder
+{
+    background:#f9bc2a;
+    font-family:Arial;
+    font-size:12pt;
+    font-weight:bold;
+    color:#ffffff;
+    width:100%;
+    height:30pt;
+    }
+    
+.yyClass
+{
+    /*background:#00aeef;*/
+    background:#30467a;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:10pt;
+    height:35pt;
+    font-weight:bold;
+   
+    
+    }
+    
+.awNameClass
+{
+    
+     background:#30467a;
+     color:#ffffff;
+     width:auto;
+     font-family:Arial;
+    font-size:10pt;
+    
+    height:100%;
+    }  
+          
+.divAwardName
+{
+    border-bottom:1px dotted #707796;
+    font-family:Arial;
+    font-size:10pt;
+    line-height:20pt;
+    background:#30467a;
+    color:#ffffff;
+    height:35pt;
+    margin:0px 0px 0px 0px;
+    width:auto;
+    text-align:left;
+     
+    
+    }
+    .divCorp
+{
+    border-bottom:1px dotted #000000;
+    font-family:Arial;
+    font-size:10pt;
+    line-height:20pt;
+    background:#707786;
+    color:#ffffff;
+    height:35pt;
+    margin:0px 0px 0px 0px; 
+    text-align:center;
+    }
+    
+    .tabBackGround
+    {
+         background:#707786;
+        
+        }
+    .divImg
+    {
+       border-bottom:1px dotted #707796;
+    font-family:Arial;
+    font-size:10pt;
+    line-height:20pt;
+    background:#30467a;
+    color:#ffffff;
+    height:35pt;
+    margin:0px 0px 0px 0px;
+    width:auto;
+    text-align:left;
+        
+        }

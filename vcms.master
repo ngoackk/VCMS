@@ -1,0 +1,99 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="vcms.master.cs" Inherits="vcms" %>
+
+<!DOCTYPE html>
+
+<html ">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="STYLES/vcms.css" />
+    <script src="http://www.vcms.com/scripts/vcms.js"></script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table border="0" style="width:100%;">
+        <tr>
+            <td></td>
+        <td>
+        <asp:ContentPlaceHolder id="CPH_TOP" runat="server">
+       
+
+        <div class="top_banner">
+
+            <div id="divAD">
+        <asp:AdRotator  id="advTOPBANNER" runat = "server"  Target =  "_blank" />
+
+    </div>
+
+            <div class="top_header">
+                    MY FOLDER VERSION 1.0
+                </div>
+
+
+
+        </div> 
+
+
+            <div class="">
+
+<table id="menu_ngang" style="width:100%" border="0">
+
+    <tr>
+        <td style="text-align:left; width:100px;">
+            <div class="top_menu">
+                <a href="http://www.vcms.com">Trang chủ</a>
+
+                </div>
+            </td>
+        <td style="text-align:left; width:200px;">
+             <div class="top_menu">
+                <a href="http://www.vcms.com/rx">Lãi suất tiết kiệm</a>
+
+            </div>
+
+        </td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+            </div>
+            
+        </asp:ContentPlaceHolder>
+
+             </td>
+           
+            <td>
+                
+                
+                <asp:ContentPlaceHolder id="CPH_LOGIN" runat="server" >
+
+                </asp:ContentPlaceHolder> 
+
+
+
+            </td>
+    
+    </tr>
+        <tr>
+            <td></td>
+            <td style="align-content:center; align-items:center; width:100%; text-align:center;" >
+        <asp:ContentPlaceHolder id="CPH_MAIN" runat="server" >
+        
+        </asp:ContentPlaceHolder>
+    </td>
+            <td></td>
+
+</tr>
+        <tr>
+
+                <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        </table>
+
+    </form>
+</body>
+</html>
